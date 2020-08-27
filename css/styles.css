@@ -1,0 +1,195 @@
+/* Headings */
+
+
+
+#title{
+  background-color: #ff4c68;
+  position:static;
+  z-index: 0;
+}
+
+.maintitle{
+  padding-bottom: 30px;
+}
+/* TinDog id */
+#size{
+  font-size: 2.5rem;
+}
+
+#features{
+  /* margin: 3rem; */
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+
+ .feature-box{
+   text-align: center;
+ }
+
+.middleh3{
+font-family: 'Montserrat-Bold', sans-serif;
+  font-weight:bold;
+  font-size: 1.5rem;
+}
+
+.pcolor{
+    color: #8f8f8f;
+
+}
+
+.i-class{
+color:#ef8172;
+padding-top: 20px;
+margin: 1rem;
+}
+.i-class:hover{
+  color:#ff4c68;
+}
+
+/* Download Button Class */
+.abc{
+  margin-left: 50px;
+  margin-top: 130px;
+}
+
+.def{
+  padding: 3% 15% 7%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* download-button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+h1{
+  color: white;
+font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+/* NavBAR */
+.navbar-brand{
+  font-family: "Ubantu";
+  font-weight: bold;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title-img */
+.Title-img{
+  width: 20%;
+  transform: rotate(25deg);
+position: absolute;
+right:20%;
+
+}
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color:white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-img{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+ .button-color{
+   color: white;
+ }
+
+
+/* Press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 10px;
+}
+
+/* Cards */
+.low-heading{
+  font-style: "Montserrat-Bold";
+}
+.row{
+  text-align: center;
+}
+#pricing{
+  text-align: center;
+  padding:25px 50px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+
+/* MediaQuery */
+@media(max-width:1030px)  {
+  .Title-img{
+    position:static;
+    padding-left: 50%;
+      text-align: center;
+    width: 100%;
+    transform: rotate(0deg);
+
+  }
+
+  .mainh1{
+    font-size: 5rem;
+  }
+
+}
+
+/* CallToAction */
+
+#cta{
+  margin-top: 0;
+  background-color:#ff4c68;
+  text-align: center;
+  padding:75px;
+}
+.call-action{
+  color: white;
+  padding:0px 100px 40px 100px;
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Footer */
+#footer{
+  padding-top: 30px;
+  text-align: center;
+}
+.footer-icons{
+  color: black;
+padding: 10px 10px;
+}
